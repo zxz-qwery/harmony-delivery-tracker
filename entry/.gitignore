@@ -1,0 +1,24 @@
+# 依赖目录
+/node_modules
+/oh_modules
+/hvigor
+/hvigorw.bat
+/hvigorw
+
+# 构建产物
+/.build
+/build
+/outputs
+
+# 开发工具配置
+/.idea
+/.vscode
+*.iml
+.local
+
+# 预览器缓存
+/.preview
+
+# 测试相关
+/.cxx
+/.test
