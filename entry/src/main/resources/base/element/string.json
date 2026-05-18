@@ -11,6 +11,10 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "location_reason",
+      "value": "Used to get current location"
     }
   ]
 }
