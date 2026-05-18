@@ -100,7 +100,7 @@ export struct HomePage {
           .fontWeight(FontWeight.Bold)
       }
       .width('100%')
-      .padding(20)
+      .padding(16)
 
       Column() {
 
