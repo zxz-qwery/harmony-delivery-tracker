@@ -1,11 +1,15 @@
 import http from '@ohos.net.http'
 
 const BASE_URL = 'https://restapi.amap.com'
-
 interface ApiResponse {
-  regeocode: {
+  regeocode?: {
     formatted_address: string;
   };
+  pois?: Array<{
+    name: string;
+    address: string;
+    distance: string;
+  }>;
 }
 
 export function request(url: string): Promise<ApiResponse> {

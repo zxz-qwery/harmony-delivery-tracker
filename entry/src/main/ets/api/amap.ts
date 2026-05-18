@@ -11,3 +11,14 @@ export function getAddressByLocation(
     `/v3/geocode/regeo?location=${longitude},${latitude}&key=${AMAP_KEY}`
   )
 }
+
+export function getNearbyPoi(
+  longitude: number,
+  latitude: number,
+  keywords: string
+) {
+
+  return request(
+    `/v3/place/around?key=${AMAP_KEY}&location=${longitude},${latitude}&keywords=${keywords}&radius=1000`
+  )
+}
